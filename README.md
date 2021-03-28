@@ -1,9 +1,9 @@
-# Interpretive deep learning for hydrological understanding
+## Interpretive deep learning for hydrological understanding
 
 - [Overview](#overview)
 - [Quick Start](#quick-start)
 
-## Overview
+### Overview
 The code demonstrates the implementation of the interpretive LSTM proposed in paper "***Gaining process understanding from black box: Uncovering flooding mechanisms through interpretive deep learning***" (submitted to a journal)
 
 Please refer to the file `License.txt` for the license governing this code.
@@ -12,7 +12,7 @@ If you have any questions or suggestions with the code or find a bug, please let
 
 ------
 
-## Quick Start
+### Quick Start
 
 The code was tested with Python 3.7. To use the code, please do:
 
