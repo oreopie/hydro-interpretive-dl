@@ -4,7 +4,7 @@
 - [Quick Start](#quick-start)
 
 ## Overview
-The code demonstrates the implementation of the interpretive LSTM proposed in paper "***Learning from machines: Uncovering flooding mechanisms through interpretive deep learning***" (submitted to a journal)
+The code demonstrates the implementation of the interpretive LSTM proposed in paper "***Gaining process understanding from black box: Uncovering flooding mechanisms through interpretive deep learning***" (submitted to a journal)
 
 Please refer to the file `License.txt` for the license governing this code.
 
@@ -14,7 +14,7 @@ If you have any questions or suggestions with the code or find a bug, please let
 
 ## Quick Start
 
-The code was tested with Python 3.6. To use the code, please do:
+The code was tested with Python 3.7. To use the code, please do:
 
 1. Clone the repo:
 
@@ -28,7 +28,7 @@ The code was tested with Python 3.6. To use the code, please do:
    ```shell
 	conda create -n hydrodeepx
 	conda activate hydrodeepx
-	conda install -c conda-forge python=3.6 numpy=1.16.4 pandas scipy tensorflow=1.14 matplotlib jupyter h5py=2.10 shap tqdm
+	conda install -c conda-forge python=3.7 numpy=1.16.4 pandas scipy tensorflow=1.14 matplotlib jupyter h5py=2.10 shap tqdm
    ```
 
 3. Start `Jupyter Notebook` and run the `demo.ipynb` locally.
