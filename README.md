@@ -4,9 +4,9 @@
 - [Quick Start](#quick-start)
 
 ### Overview
-The code demonstrates the implementation of the interpretive LSTM proposed in paper "***Gaining process understanding from black box: Uncovering flooding mechanisms through interpretive deep learning***" (submitted to a journal)
+The code demonstrates the implementation of the interpretive LSTM proposed in paper "***Gaining process understanding from the black box: Uncovering flooding mechanisms through interpretive deep learning***" (submitted to a journal)
 
-Please refer to the file `License.txt` for the license governing this code.
+Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
 If you have any questions or suggestions with the code or find a bug, please let us know. You are welcome to [raise an issue here](https://github.com/oreopie/hydro-interpretive-dl/issues) or contact Shijie Jiang at *jiangsj(at)mail.sustech.edu.cn*
 
