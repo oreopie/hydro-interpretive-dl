@@ -12,7 +12,7 @@ The code demonstrates how to interpret LSTM-based hydrological models through th
 
 Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
-Kindly contact us with any questions or ideas you have concerning the code, or if you discover a bug. You may [raise an issue here](https://github.com/oreopie/hydro-interpretive-dl/issues) here or contact Shijie Jiang through email at *jiangsj(at)mail.sustech.edu.cn*
+Kindly contact us with any questions or ideas you have concerning the code, or if you discover a bug. You may [raise an issue](https://github.com/oreopie/hydro-interpretive-dl/issues) here or contact Shijie Jiang through email at *jiangsj(at)mail.sustech.edu.cn*
 
 ------
 
