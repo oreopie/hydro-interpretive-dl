@@ -5,13 +5,14 @@
 - [Quick Start](#quick-start)
 
 ### Overview
-The code demonstrates the implementation of using expected gradients and additive decomposition methods to interpret LSTM-based hydrological models, as proposed in the paper "***Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments***" (submitted to a journal)
 
-**Note: some codes will be released once the paper is accepted.**
+The code demonstrates how to interpret LSTM-based hydrological models through the use of expected gradients and additive decomposition methods, as developed in our paper "***Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments***" (submitted to a journal).
+
+**Note: some codes will be made available upon the acceptance of the paper.**
 
 Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
-If you have any questions or suggestions with the code or find a bug, please let us know. You are welcome to [raise an issue here](https://github.com/oreopie/hydro-interpretive-dl/issues) or contact Shijie Jiang at *jiangsj(at)mail.sustech.edu.cn*
+Kindly contact us with any questions or ideas you have concerning the code, or if you discover a bug. You may [raise an issue here](https://github.com/oreopie/hydro-interpretive-dl/issues) here or contact Shijie Jiang through email at *jiangsj(at)mail.sustech.edu.cn*
 
 ------
 
