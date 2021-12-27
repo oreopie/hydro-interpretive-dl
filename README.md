@@ -1,4 +1,4 @@
-## Interpretive deep learning for investigating flooding mechanism
+## An interpretive deep learning approach to investigating flooding mechanisms
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.4686106-blue.svg)](https://doi.org/10.5281/zenodo.4686106)
 
 - [Overview](#overview)
@@ -6,9 +6,9 @@
 
 ### Overview
 
-The code demonstrates how to interpret LSTM-based hydrological models through the use of expected gradients and additive decomposition methods, as developed in our paper "***Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments***" (submitted to a journal).
+The code demonstrates how to interpret LSTM-based hydrological models through the use of expected gradients and additive decomposition methods, as described in paper
 
-**Note: some codes will be made available upon the acceptance of the paper.**
+Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2021). **Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments**. *Water Resources Research*, 57, e2021WR030185. https://doi.org/10.1029/2021WR030185
 
 Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
