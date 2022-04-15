@@ -8,11 +8,11 @@
 
 The repository contains codes that demonstrate the use of interpretation techniques to gain insights into flooding mechanisms from LSTM-based hydrological models, as described in the papers
 
-Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2022a). **Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments**. *Water Resources Research*, 57, e2021WR030185. https://doi.org/10.1029/2021WR030185
+> Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2022a). **Uncovering flooding mechanisms across the contiguous United States through interpretive deep learning on representative catchments**. *Water Resources Research*, 57, e2021WR030185. https://doi.org/10.1029/2021WR030185
 
 and 
 
-Jiang, S., Bevacqua, E., & Zscheischler, J. (2022b). **River flooding mechanisms and their changes in Europe revealed by explainable machine learning**. (*submitted to a journal for review*)
+> Jiang, S., Bevacqua, E., & Zscheischler, J. (2022b). **River flooding mechanisms and their changes in Europe revealed by explainable machine learning**. (*submitted to a journal for review*)
 
 Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
