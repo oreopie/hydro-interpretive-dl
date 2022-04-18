@@ -24,7 +24,7 @@ Kindly contact us with any questions or ideas you have concerning the code, or i
 
 The code was tested with Python 3.7. To use the code, please do:
 
-1. Clone the repo:
+1. Clone the repository:
 
    ```shell
    git clone https://github.com/oreopie/hydro-interpretive-dl.git
@@ -32,21 +32,22 @@ The code was tested with Python 3.7. To use the code, please do:
    ```
 
 > The study (Jiang et al., 2022a) was implemented based on MOPEX (Model Parameter Estimation Experiment) dataset by [*NOAA National Weather Service*](https://www.nws.noaa.gov/ohd/mopex/mo_datasets.htm). One can download the data from the [official website](https://hydrology.nws.noaa.gov/pub/gcip/mopex/US_Data/) or [HydroShare](https://www.hydroshare.org/resource/99d5c1a238134ea6b8b767a65f440cb7/data/contents/MOPEX.zip) into `mopex`.
-> 
+
 > The study (Jiang et al., 2022b) was implemented based on the following datasets:
 > - GRDC dataset (https://www.bafg.de/GRDC)
 > - E-OBS gridded precipitation and temperature dataset (https://www.ecad.eu/download/ensembles/download.php)
 > - Catchment attributes and boundaries obtained from the Global Streamflow Indices and Metadata Archive (GSIM) (https://doi.pangaea.de/10.1594/PANGAEA.8874778) and GRDC (https://www.bafg.de/GRDC/EN/02_srvcs/22_gslrs/222_WSB/watershedBoundaries.html)
+> 
+> We provide a sample dataset that contains daily precipitation, temperature, and discharge in `data`.
 
 2. Install dependencies ([conda](https://docs.conda.io/en/latest/miniconda.html) is recommended to manage packages):
 
    ```shell
-	conda create -n hydrodeepx
+	conda create -n hydrodeepx python=3.6.6
 	conda activate hydrodeepx
-	conda install -c conda-forge python=3.7 numpy=1.16.4 tensorflow=1.14 h5py=2.10 keras shap
-	conda install -c conda-forge pandas scipy matplotlib jupyter tqdm
+	pip install innvestigate  tensorflow==1.13.1 h5py==2.10 numpy keras shap  matplotlib jupyter tqdm
    ```
    
-   Note for this implementation, `tensorflow v1.14` is recommended, though `tensorflow v2.x` may also work.
+   Note for this implementation, `tensorflow v1.x` is recommended, though `tensorflow v2.x` may also work.
 
 3. Start `Jupyter Notebook` and run the Jupyter Notebooks in the repository locally.
