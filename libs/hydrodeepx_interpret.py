@@ -1,11 +1,15 @@
 """
-This file is part of the accompanying code to our paper
-Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2021). Uncovering flooding mecha-
+This file is part of the accompanying code to our papers
+Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2022) Uncovering flooding mecha-
 nisms across the contiguous United States through interpretive deep learning on
 representative catchments. Water Resources Research, 57, e2021WR030185.
 https://doi.org/10.1029/2021WR030185.
 
-Copyright (c) 2021 Shijie Jiang. All rights reserved.
+Jiang, S., Bevacqua, E., & Zscheischler, J. (2022) River flooding mechanisms 
+and their changes in Europe revealed by explainable machine learning, Hydrology 
+and Earth System Sciences, 26, 6339–6359. https://doi.org/10.5194/hess-26-6339-2022.
+
+Copyright (c) 2023 Shijie Jiang. All rights reserved.
 
 You should have received a copy of the MIT license along with the code. If not,
 see <https://opensource.org/licenses/MIT>

@@ -1,4 +1,5 @@
-## An interpretive deep learning framework for identifying flooding mechanisms
+
+## Interpretive deep learning for identifying flooding mechanisms
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.4686106-blue.svg)](https://doi.org/10.5281/zenodo.4686106)
 
 - [Overview](#overview)
@@ -12,7 +13,7 @@ The repository contains codes that demonstrate the use of interpretation techniq
 
 and 
 
-> Jiang, S., Bevacqua, E., & Zscheischler, J. (2022b). **River flooding mechanisms and their changes in Europe revealed by explainable machine learning**. (*submitted to a journal for review*)
+> Jiang, S., Bevacqua, E., & Zscheischler, J. (2022b). **River flooding mechanisms and their changes in Europe revealed by explainable machine learning**, *Hydrology and Earth System Sciences*, 26, 6339–6359, https://doi.org/10.5194/hess-26-6339-2022
 
 Please refer to the file [LICENSE](/LICENSE) for the license governing this code.
 
@@ -38,7 +39,7 @@ The code was tested with Python 3.7. To use the code, please do:
 > - E-OBS gridded precipitation and temperature dataset (https://www.ecad.eu/download/ensembles/download.php)
 > - Catchment attributes and boundaries obtained from the Global Streamflow Indices and Metadata Archive (GSIM) (https://doi.pangaea.de/10.1594/PANGAEA.8874778) and GRDC (https://www.bafg.de/GRDC/EN/02_srvcs/22_gslrs/222_WSB/watershedBoundaries.html)
 > 
-> We provide a sample dataset that contains daily precipitation, temperature, and discharge in `data`.
+> We provide a dataset for a sample catchment that contains daily precipitation, temperature, and discharge in `data`.
 
 2. Install dependencies ([conda](https://docs.conda.io/en/latest/miniconda.html) is recommended to manage packages):
 

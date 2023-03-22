@@ -1,11 +1,15 @@
 """
-This file is part of the accompanying code to our paper
-Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2021). Uncovering flooding mecha-
+This file is part of the accompanying code to our papers
+Jiang, S., Zheng, Y., Wang, C., & Babovic, V. (2022) Uncovering flooding mecha-
 nisms across the contiguous United States through interpretive deep learning on
 representative catchments. Water Resources Research, 57, e2021WR030185.
 https://doi.org/10.1029/2021WR030185.
 
-Copyright (c) 2021 Shijie Jiang. All rights reserved.
+Jiang, S., Bevacqua, E., & Zscheischler, J. (2022) River flooding mechanisms 
+and their changes in Europe revealed by explainable machine learning, Hydrology 
+and Earth System Sciences, 26, 6339–6359. https://doi.org/10.5194/hess-26-6339-2022.
+
+Copyright (c) 2023 Shijie Jiang. All rights reserved.
 
 You should have received a copy of the MIT license along with the code. If not,
 see <https://opensource.org/licenses/MIT>
@@ -70,4 +74,25 @@ def identify_peaks(Q, distance=14, **kwargs):
 def R2(y_true, y_pred):
     SS_res =  K.sum(K.square( y_true-y_pred ))
     SS_tot = K.sum(K.square( y_true - K.mean(y_true) ) )
-    return ( 1 - SS_res/(SS_tot + K.epsilon()) )
+    return (1 - SS_res/(SS_tot + K.epsilon()))
+
+def r_R2(y_true, y_pred):
+    SS_res =  K.sum(K.square( y_true-y_pred ))
+    SS_tot = K.sum(K.square( y_true - K.mean(y_true) ) )
+    return SS_res/(SS_tot + K.epsilon())
+
+
+def identify_AM_peaks(Q):
+
+    candidate_peak_indices, _ = signal.find_peaks(Q)
+
+    peak_year = Q.iloc[candidate_peak_indices].index.year.unique()
+    am_peaks_date = Q.groupby(Q.index.year).idxmax()
+    am_peaks_date = am_peaks_date[Q.groupby(Q.index.year).count()>=180]       
+    peaks = Q.loc[am_peaks_date]
+        
+    peak_time = peaks.index
+
+    print(f"A total of {len(peak_time)} AM flood peaks are identified.")
+
+    return peak_time
