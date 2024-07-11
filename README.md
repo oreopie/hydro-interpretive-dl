@@ -37,7 +37,7 @@ The code was tested with Python 3.7. To use the code, please do:
 > The study (Jiang et al., 2022b) was implemented based on the following datasets:
 > - GRDC dataset (https://www.bafg.de/GRDC)
 > - E-OBS gridded precipitation and temperature dataset (https://www.ecad.eu/download/ensembles/download.php)
-> - Catchment attributes and boundaries obtained from the Global Streamflow Indices and Metadata Archive (GSIM) (https://doi.pangaea.de/10.1594/PANGAEA.8874778) and GRDC (https://www.bafg.de/GRDC/EN/02_srvcs/22_gslrs/222_WSB/watershedBoundaries.html)
+> - Catchment attributes and boundaries obtained from the Global Streamflow Indices and Metadata Archive (GSIM) (https://doi.pangaea.de/10.1594/PANGAEA.887477) and GRDC (https://www.bafg.de/GRDC/EN/02_srvcs/22_gslrs/222_WSB/watershedBoundaries.html)
 > 
 > We provide a dataset for a sample catchment that contains daily precipitation, temperature, and discharge in `data`.
 
